@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3, h1 {
+    color: #0ff;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+}
+
+button, .btn {
+    background-color: #0ff;
+    color: #111;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #ff4e50;
+    box-shadow: 0 0 20px #ff4e50, 0 0 30px #ff4e50, 0 0 40px #ff4e50;
+}
+
+#add-smartphone {
+    display: none;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0ff;
+}
+
+#add-smartphone table {
+    width: 100%;
+}
+
+#add-smartphone td {
+    padding: 10px;
+}
+
+#add-smartphone input[type="text"], #add-smartphone input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #333;
+    border: none;
+    color: #0ff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+}
+
+#add-smartphone input[type="submit"] {
+    background-color: #0ff;
+    color: #111;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#add-smartphone input[type="submit"]:hover {
+    background-color: #00ff6a;
+    box-shadow: 0 0 20px #00ff6a, 0 0 30px #00ff6a, 0 0 40px #00ff6a;
+}
+
+
+#display-list {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0ff;
+    overflow: hidden;
+}
+
+#display-list th, #display-list td {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+#display-list th {
+    background-color: #111;
+    border-bottom: 1px solid #333;
+    color: #0ff;
+}
+
+#display-list tr:nth-child(even) {
+    background-color: #333;
+}
+
+#display-list tr:nth-child(odd) {
+    background-color: #222;
+}
+
+#div-btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
